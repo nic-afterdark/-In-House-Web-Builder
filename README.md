@@ -1,34 +1,48 @@
-# 🏗️ In-House Web Builder
+# 🛠️ In-House Web Builder
 
-A simple web-based front-end builder that fetches content from an API and displays it dynamically. Built using **React**, this project demonstrates dynamic rendering, API integration, and shopping cart functionality using React Context.
+An interactive web app built with **React.js** that brings together two fun tools:
 
-### 🚀 Live Demo
-[View on GitHub Pages](https://nic-afterdark.github.io/-In-House-Web-Builder/)
+1. **🎯 Vibe Check Quiz** – Discover your personality type through quick questions.
+2. **🖼️ Meme Generator** – Create and download your own custom memes.
 
----
-
-## 📦 Tech Stack
-
-- **React** (Create React App)
-- **React Router**
-- **Axios**
-- **React Toastify**
-- **Context API**
-- **CSS Modules / Custom Styling**
+Deployed on GitHub Pages:  
+👉 [Live Demo](https://nic-afterdark.github.io/-In-House-Web-Builder)
 
 ---
 
-## 📁 Project Structure
+## 🔮 Vibe Check – Personality Quiz
 
-```plaintext
-├── public/
-├── src/
-│   ├── assets/           # Icons and static assets
-│   ├── components/       # Navbar, Sidebar, etc.
-│   ├── context/          # StoreContext.js
-│   ├── pages/            # Add, List, Orders
-│   ├── App.js
-│   ├── index.js
-│   └── ...
-├── package.json
-└── README.md
+A light and engaging quiz that helps users discover their "vibe" based on a series of multiple-choice questions.
+
+💡 Sample Results:
+- **Techie** 💻
+- **Social Butterfly** 🥳
+- **Introvert** 📚
+- **Adventurer** 🧭
+
+Built using state hooks, dynamic rendering, and result-based feedback.
+
+---
+
+## 🖼 Meme Generator
+
+Users can:
+- Upload or select a meme image
+- Drag and place text anywhere
+- Customize captions
+- Export the final meme as an image (`.jpeg`)
+
+🛠 Powered by:
+- `react-draggable`
+- `html2canvas`
+- `dom-to-image-more`
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/nic-afterdark/-In-House-Web-Builder.git
+cd -In-House-Web-Builder
